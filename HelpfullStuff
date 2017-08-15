@@ -1,0 +1,15 @@
+# Is rake db:migrate not doing anything?  Run these sequence of commands:-
+
+1. rake db:drop:all
+2. rake db:create:all
+3. rake db:migrate
+
+That should fix it! ;-)
+
+--------------------------------------------------------
+
+to ensure v2.3.1 of ruby is always installed, run...
+
+    rvm --default use 2.3.1
+    
+--------------------------------------------------------
